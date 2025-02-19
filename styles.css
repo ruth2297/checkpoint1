@@ -1,0 +1,69 @@
+@font-face{
+  src: url(fonts/Montserrat-VariableFont_wght);
+  font-family: montserrat;
+}
+
+.bodyy{
+  background-color: rgb(234, 187, 187);
+  display: flow-root;
+}
+.thirdParagraph{
+ background-color: hsl(283,100%,64%);
+}
+.forthParagraph{
+  color: #090045;
+  background-color: aliceblue;
+  font-family: montserrat;
+}
+.h_one{
+  font-family: Roboto, verdana, arial;
+}
+.fifthParagraph{
+  font-family: "lucida console", "courier new";
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+.h_two{
+  border-radius: 20px;
+  border: 3px solid hsl(273,100%,54%)
+}
+.sixthParagraph{
+  border-bottom: 3px solid rgb(252, 28, 28);
+  border-top: 3px solid yellow;
+  border-left: 3px dotted orange;
+  border-right: 3px dotted green;
+
+  border-radius: 10px;
+}
+.h_three{
+  text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(197, 100%, 61%);
+}
+#box1{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(235, 235, 234);
+  box-shadow: 3px 3px 5px;
+}
+.box{
+  border: 5px;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+#boxone{
+  background-color: hsl(0, 100%, 60%);
+  margin-bottom: 50px;
+}
+#boxtwo{
+  background-color: hsl(189, 100%, 55%);
+}
+#img1{
+  float: left;
+  margin: 10px;
+}
+#img2{
+  float: right;
+  margin-left: 10px;
+}
