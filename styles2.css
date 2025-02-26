@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+.div{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+.div2{
+    background-color: hsl(0, 100%, 75%);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.span{
+    background-color: hsl(204, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid;
+    height: auto;
+    width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    max-width: 25%;
+    min-height: 50%;
+}
+.container{
+    background-color: hsl(0, 0%, 24%);
+    height: 100vh;
+}
+#box1{
+    width: 200px;
+    height:200px;
+    background-color: hsl(188, 100%, 63%);
+    position: relative;
+    top: 10px;
+    left: 100px;
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 96%, 58%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+body{
+    background-image: url(ocean.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    color: white;
+}
+#container2{
+    border: solid 2px white;
+}
+#container2 p{
+    background-color: rgb(109, 109, 99);
+}
+#container2 > p{
+    background-color: rgb(12, 104, 72);
+}
+#container2 + p{
+    background-color: rgb(125, 125, 22);
+}
+a:link{
+    color: lightblue;
+}
+a:hover{
+    color:rgb(25, 172, 221);
+    font-size: 1.1em;
+}
+a:active{
+    font-size: 1.1em;
+    color: darkblue;
+}
+a:visited{
+    color: rgb(101, 97, 97);
+}
+li:hover{
+    background-color: aquamarine;
+}
+li:not(:hover){
+    background-color: rgb(199, 199, 188);
+}
+li:nth-child(even){
+    background-color: blueviolet;
+}
+#greeting p{
+    background-color: rgb(56, 159, 228);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    color:rgb(34, 197, 20);
+    background-color: gray;
+}
+
+#apple::after{
+    content:"🍎";
+}
+#orange::after{
+    content:"🍊";
+}
+#banana::after{
+    content:"🍌";
+}
+#fruit li::marker{
+    content:"✔";
+    color: greenyellow;
+    font-size: 1.2em;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: greenyellow;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(159, 156, 156);
+    border-radius: 5px;
+}
+.dropdown button{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .contentt{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .contentt{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 70%);
+}
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+.dropdown{
+    display: inline-block;
+}
